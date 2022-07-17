@@ -24,7 +24,11 @@ main {
 .clock {
     width: 700px;
     height: 300px;
+    border-style: solid;
+    border-width: 2.5px;
     border-radius: 10px;
+    border-color: #5c5757;
+
     box-shadow: 0 0 16px, 0 #8c8db9;
     background-image: linear-gradient(to bottom right, #ff00f7, #9c0cd5);
 }
