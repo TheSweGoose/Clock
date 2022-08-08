@@ -48,6 +48,6 @@ main {
 }
 
 .clock-inner .time {
-    font-size: 250%;
+    font-size: 225%;
     flex-wrap: nowrap;
 }
