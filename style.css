@@ -1,5 +1,5 @@
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
 
 * {
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tapestry', cursive;
 }
 
 main {
@@ -25,13 +25,6 @@ main {
 .clock {
     width: 700px;
     height: 300px;
-    border-style: solid;
-    border-width: 2.5px;
-    border-radius: 10px;
-    border-color: #5c5757;
-
-    box-shadow: 0 0 16px, 0 #8c8db9;
-    background-image: linear-gradient(to bottom right, #ff00f7, #9c0cd5);
 }
 
 .clock-inner {
@@ -41,7 +34,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #5c5757;
+    color: #fff;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 .clock-inner .date {
@@ -54,3 +51,5 @@ main {
     font-size: 262%;
     flex-wrap: nowrap;
 }
+
+linear-gradient(to bottom right, #ff00f7, #9c0cd5)
