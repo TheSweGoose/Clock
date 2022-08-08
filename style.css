@@ -48,8 +48,6 @@ main {
 }
 
 .clock-inner .time {
-    font-size: 262%;
+    font-size: 250%;
     flex-wrap: nowrap;
 }
-
-linear-gradient(to bottom right, #ff00f7, #9c0cd5)
